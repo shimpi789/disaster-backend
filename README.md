@@ -18,9 +18,15 @@ disaster-aggregation-platform/
 --npm install--#for install dependencies
 
 # set up environment variables 
-DB_URI=your_db_connection_string
-WEATHER_API_KEY=your_api_key
-NEWS_API_KEY=your_api_key
+DB_USER=
+DB_HOST=
+DB_NAME=
+DB_PASSWORD=
+DB_PORT=
+
+# API Keys
+OPENWEATHERMAP_API_KEY=
+NEWS_API_KEY=
 
 
 --node server.js---#to start the server
